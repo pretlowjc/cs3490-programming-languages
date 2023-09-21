@@ -12,6 +12,9 @@ timesThree x = x * 3
 sayHello :: String -> String
 sayHello target = "Hello, " ++ target ++ "!"
 
+
+
+
 -- Multiple Argument Functions
 add :: Int -> Int -> Int -- 1
 add first second = first + second -- 2
@@ -29,3 +32,8 @@ and is used very frequently in Haskell.
 3 We don’t need parenthesis around add 1, as they are implied. Function application 
 is left-associative. For example, the expression a b c d is interpreted as ((a b) c) d.
 -}
+
+
+
+
+-- Pattern Matching and Branching
